@@ -1,0 +1,16 @@
+[
+    
+    {
+        "domain": "ncs.io",
+        "expirationDate": 1719100117,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "CookieScriptConsent",
+        "path": "/",
+        "sameSite": "unspecified",
+        "secure": true,
+        "session": false,
+        "storeId": "0",
+        "value": "{\"googleconsentmap\":{\"ad_storage\":\"targeting\",\"analytics_storage\":\"performance\",\"functionality_storage\":\"functionality\",\"personalization_storage\":\"functionality\",\"security_storage\":\"functionality\"},\"action\":\"accept\",\"categories\":\"[\\\"unclassified\\\",\\\"performance\\\",\\\"targeting\\\"]\",\"key\":\"db1ccd9b-d1b4-4e22-a4ae-07cc7421db9c\"}"
+    }
+]
