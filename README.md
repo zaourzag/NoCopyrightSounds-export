@@ -4,33 +4,32 @@
 
 ## Overview
 
-NoCopyrightSounds Exporter is a tool that allows you to fetch and export music tracks from the NoCopyrightSounds (NCS) library.
+NoCopyrightSounds Exporter is a powerful tool designed to simplify the process of fetching and exporting music tracks from the NoCopyrightSounds (NCS) library.
 
 ## Features
 
-- Fetches music tracks from the NCS library via their API.
-- Saves fetched tracks to a JSON file for easy access and management.
-- Generates a JSON file containing track names, URLs, and IDs.
-- Automatically checks for new tracks and updates the export.
-- Downloads the music tracks as MP3 files for offline use.
-- Organizes downloaded tracks into a folder for easy access.
-- Prevents redownloading of already fetched tracks.
+- **Music Track Fetching**: Effortlessly fetches music tracks from the NCS library via their API.
+- **Export Management**: Saves fetched tracks to a JSON file for easy access and management.
+- **Metadata Generation**: Generates a JSON file containing detailed track metadata, including names, URLs, and IDs.
+- **Automatic Updates**: Automatically checks for new tracks and updates the export to keep it current.
+- **Redownloading Protection**: Prevents redownloading of previously downloaded tracks.
+- **Downloaded URLs Logging**: Logs downloaded URLs to a file to track downloaded tracks.
 
 ## Getting Started
 
-1. Clone the repository:
+### Clone the Repository
 
-   ```bash
-   git clone https://github.com/your-username/NoCopyrightSounds-export.git
-   ```
+```bash
+git clone https://github.com/your-username/NoCopyrightSounds-export.git
 
-2. Install dependencies:
+```
+### Install dependencies:
 
    ```bash
    npm install
    ```
 
-3. Run the script:
+### Run the script:
 
    ```bash
    npm start
@@ -38,17 +37,17 @@ NoCopyrightSounds Exporter is a tool that allows you to fetch and export music t
 
 ## Usage
 
-Upon running the script, it will fetch tracks from the NCS library and save them to songs.json.
-It will then generate a JSON file called urls.json, containing track names, IDs, and URLs.
-The script will automatically check for new tracks on subsequent runs and update the export accordingly.
+1. Upon running the script, it will fetch tracks from the NCS library and save them to `songs.json`.
+2. It will then generate a JSON file called `urls.json`, containing track names, IDs, and URLs.
+3. The script will automatically check for new tracks on subsequent runs and update the export accordingly.
 
 ## Configuration
 
-Modify config.json to customize settings such as file paths, API endpoints, etc.
+- Modify `config.json` to customize settings such as file paths, API endpoints, etc.
 
 ## Dependencies
 
-- nocopyrightsounds-api: A Node.js wrapper for the NCS API.
+- [nocopyrightsounds-api](https://github.com/yishn/nocopyrightsounds-api): A Node.js wrapper for the NCS API.
 
 ## Contributing
 
@@ -56,4 +55,4 @@ Contributions are welcome! Fork the repository, make your changes, and submit a 
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
