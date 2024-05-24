@@ -4,7 +4,8 @@
   "description": "a javascript project to export all songs from ncs",
   "main": "index.js",
   "scripts": {
-    "index": "node .",
+    "start": "node .",
+    "download": "node download.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Zakaria Aourzag",
